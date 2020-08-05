@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cart1" representedClassName="Cart1" syncable="YES" codeGenerationType="class">
+        <attribute name="available_quantity" optional="YES" attributeType="String"/>
+        <attribute name="discount" optional="YES" attributeType="String"/>
+        <attribute name="discount_amount" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="product_id" optional="YES" attributeType="String"/>
+        <attribute name="product_name" optional="YES" attributeType="String"/>
+        <attribute name="product_quantity" optional="YES" attributeType="String"/>
+        <attribute name="product_rate" optional="YES" attributeType="String"/>
+        <attribute name="tax" optional="YES" attributeType="String"/>
+        <attribute name="total_price" optional="YES" attributeType="String"/>
+        <attribute name="unit" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Cart1" positionX="-63" positionY="-18" width="128" height="208"/>
+    </elements>
+</model>

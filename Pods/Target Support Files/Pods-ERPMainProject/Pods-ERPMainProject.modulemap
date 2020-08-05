@@ -1,0 +1,6 @@
+framework module Pods_ERPMainProject {
+  umbrella header "Pods-ERPMainProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

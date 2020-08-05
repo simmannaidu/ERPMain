@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4743F270248482D9005A2494 /* ManageCustomerProductPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4743F26F248482D9005A2494 /* ManageCustomerProductPriceViewController.swift */; };
+		474AD1402481DA62003DA7AF /* DailySalesRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474AD13F2481DA61003DA7AF /* DailySalesRunVC.swift */; };
+		474AD142248329F8003DA7AF /* CMRManageCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474AD141248329F8003DA7AF /* CMRManageCustomer.swift */; };
+		47E832362477D5E300E02ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832352477D5E300E02ADB /* AppDelegate.swift */; };
+		47E832382477D5E300E02ADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832372477D5E300E02ADB /* SceneDelegate.swift */; };
+		47E8323A2477D5E300E02ADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832392477D5E300E02ADB /* ViewController.swift */; };
+		47E832402477D5E400E02ADB /* ERPMainProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47E8323E2477D5E400E02ADB /* ERPMainProject.xcdatamodeld */; };
+		47E832422477D5F800E02ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E832412477D5F800E02ADB /* Assets.xcassets */; };
+		47E832452477D5F800E02ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E832432477D5F800E02ADB /* LaunchScreen.storyboard */; };
+		47E8324D2477D67B00E02ADB /* NewInvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8324C2477D67B00E02ADB /* NewInvoiceViewController.swift */; };
+		47E8324F2477D6B900E02ADB /* NewQuationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8324E2477D6B900E02ADB /* NewQuationsViewController.swift */; };
+		47E832512477D6E600E02ADB /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832502477D6E600E02ADB /* CartViewController.swift */; };
+		47E832532477D70700E02ADB /* SupplierPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832522477D70700E02ADB /* SupplierPaymentViewController.swift */; };
+		47E832552477D72800E02ADB /* DebitVoucherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832542477D72800E02ADB /* DebitVoucherViewController.swift */; };
+		47E832572477D74900E02ADB /* VoucherApproveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832562477D74900E02ADB /* VoucherApproveListViewController.swift */; };
+		47E832592477D76C00E02ADB /* SendMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832582477D76C00E02ADB /* SendMessageViewController.swift */; };
+		47E8325B2477D78F00E02ADB /* AddCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8325A2477D78F00E02ADB /* AddCustomerViewController.swift */; };
+		47E8325D2477D7C500E02ADB /* StringExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8325C2477D7C500E02ADB /* StringExtention.swift */; };
+		47E8325F2477D7E500E02ADB /* InboxMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8325E2477D7E500E02ADB /* InboxMessageViewController.swift */; };
+		47E832612477D80B00E02ADB /* OutboxMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832602477D80B00E02ADB /* OutboxMessageViewController.swift */; };
+		47E832632477D82600E02ADB /* SupplierLedgerReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832622477D82600E02ADB /* SupplierLedgerReportVC.swift */; };
+		47E832652477D85000E02ADB /* MessageDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832642477D85000E02ADB /* MessageDetailsViewController.swift */; };
+		47E832672477D86900E02ADB /* CreditVoucherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832662477D86900E02ADB /* CreditVoucherViewController.swift */; };
+		47E832692477D88F00E02ADB /* ManageDriversVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832682477D88F00E02ADB /* ManageDriversVC.swift */; };
+		47E8326B2477D8B800E02ADB /* TrickListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8326A2477D8B800E02ADB /* TrickListVC.swift */; };
+		47E8326D2477D8EA00E02ADB /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8326C2477D8EA00E02ADB /* ActionButton.swift */; };
+		47E8326F2477D92500E02ADB /* ActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8326E2477D92500E02ADB /* ActionButtonItem.swift */; };
+		47E832712477D95500E02ADB /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832702477D95500E02ADB /* AddCategoryViewController.swift */; };
+		47E832732477D9A700E02ADB /* AddUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832722477D9A700E02ADB /* AddUsersViewController.swift */; };
+		47E832752477DA0F00E02ADB /* CashBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832742477DA0F00E02ADB /* CashBookViewController.swift */; };
+		47E832772477DA3D00E02ADB /* categoryWisePurchaseReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832762477DA3D00E02ADB /* categoryWisePurchaseReportViewController.swift */; };
+		47E832792477DA7F00E02ADB /* CategoryWiseSalesReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832782477DA7F00E02ADB /* CategoryWiseSalesReportViewController.swift */; };
+		47E8327B2477DAAC00E02ADB /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8327A2477DAAC00E02ADB /* ChangePasswordViewController.swift */; };
+		47E8327D2477DAE100E02ADB /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8327C2477DAE100E02ADB /* CheckInternet.swift */; };
+		47E8327F2477DB1800E02ADB /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8327E2477DB1800E02ADB /* CheckOutViewController.swift */; };
+		47E832812477DB4600E02ADB /* ClosingAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832802477DB4600E02ADB /* ClosingAccountViewController.swift */; };
+		47E832832477DB7200E02ADB /* ClosingReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832822477DB7200E02ADB /* ClosingReportViewController.swift */; };
+		47E832852477DB9A00E02ADB /* CreditCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832842477DB9A00E02ADB /* CreditCustomerViewController.swift */; };
+		47E832872477DBCE00E02ADB /* CustomerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832862477DBCE00E02ADB /* CustomerHomeViewController.swift */; };
+		47E832892477DBFC00E02ADB /* CustomerInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832882477DBFC00E02ADB /* CustomerInformationViewController.swift */; };
+		47E8328B2477DC5E00E02ADB /* CustomerLedgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8328A2477DC5E00E02ADB /* CustomerLedgerViewController.swift */; };
+		47E8328D2477DC8B00E02ADB /* CustomerManageCartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8328C2477DC8B00E02ADB /* CustomerManageCartVC.swift */; };
+		47E8328F2477DCAE00E02ADB /* CustomerManageCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8328E2477DCAE00E02ADB /* CustomerManageCategoryViewController.swift */; };
+		47E832912477DCD000E02ADB /* CustomerManageMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832902477DCD000E02ADB /* CustomerManageMessageViewController.swift */; };
+		47E832932477DCF900E02ADB /* CustomerManageOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832922477DCF900E02ADB /* CustomerManageOrderViewController.swift */; };
+		47E832952478D71600E02ADB /* CustomerManageProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832942478D71600E02ADB /* CustomerManageProductViewController.swift */; };
+		47E832972478D73A00E02ADB /* CustomerReceiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832962478D73A00E02ADB /* CustomerReceiveViewController.swift */; };
+		47E832992478D75A00E02ADB /* CustomerSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832982478D75A00E02ADB /* CustomerSupportViewController.swift */; };
+		47E8329B2478D77C00E02ADB /* DueReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8329A2478D77C00E02ADB /* DueReportViewController.swift */; };
+		47E8329D2478D7A600E02ADB /* ForCoreDataMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8329C2478D7A600E02ADB /* ForCoreDataMethods.swift */; };
+		47E8329F2478D7D700E02ADB /* ForWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8329E2478D7D700E02ADB /* ForWebViewController.swift */; };
+		47E832A12478D7F800E02ADB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832A02478D7F800E02ADB /* HomeViewController.swift */; };
+		47E832A32478D81800E02ADB /* InventoryLedgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832A22478D81800E02ADB /* InventoryLedgerViewController.swift */; };
+		47E832A52478D84600E02ADB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832A42478D84500E02ADB /* LoginViewController.swift */; };
+		47E832A72478D86D00E02ADB /* MainHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832A62478D86D00E02ADB /* MainHomeViewController.swift */; };
+		47E832A92478D89300E02ADB /* MainScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832A82478D89300E02ADB /* MainScrollViewController.swift */; };
+		47E832AB2478D8C600E02ADB /* ManageActiveCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832AA2478D8C600E02ADB /* ManageActiveCustomerViewController.swift */; };
+		47E832AD2478D90C00E02ADB /* ManageCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832AC2478D90C00E02ADB /* ManageCategoryViewController.swift */; };
+		47E832AF2478D94700E02ADB /* ManageCustomerUpdateApplicantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832AE2478D94700E02ADB /* ManageCustomerUpdateApplicantsViewController.swift */; };
+		47E832B12478D98400E02ADB /* ManageCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832B02478D98400E02ADB /* ManageCustomerViewController.swift */; };
+		47E832B32478D9B200E02ADB /* ManageInactiveCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832B22478D9B200E02ADB /* ManageInactiveCustomerViewController.swift */; };
+		47E832B52478D9D900E02ADB /* ManageInvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832B42478D9D900E02ADB /* ManageInvoiceViewController.swift */; };
+		47E832B72478DA0B00E02ADB /* ManageMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832B62478DA0B00E02ADB /* ManageMessagesViewController.swift */; };
+		47E832B92478DA4200E02ADB /* ManageNewApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832B82478DA4200E02ADB /* ManageNewApplicationViewController.swift */; };
+		47E832BB2478DA7700E02ADB /* ManageProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832BA2478DA7700E02ADB /* ManageProductViewController.swift */; };
+		47E832BD2478DAB500E02ADB /* ManagePurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832BC2478DAB500E02ADB /* ManagePurchaseViewController.swift */; };
+		47E832BF2478DAEA00E02ADB /* ManageQuotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832BE2478DAEA00E02ADB /* ManageQuotationViewController.swift */; };
+		47E832C12478DB1900E02ADB /* ManageSupplierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832C02478DB1900E02ADB /* ManageSupplierViewController.swift */; };
+		47E832C32478DB5D00E02ADB /* ManageTaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832C22478DB5D00E02ADB /* ManageTaxViewController.swift */; };
+		47E832C52478DB8B00E02ADB /* ManageUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832C42478DB8B00E02ADB /* ManageUnitViewController.swift */; };
+		47E832C72478DD9B00E02ADB /* ManageUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832C62478DD9B00E02ADB /* ManageUsersViewController.swift */; };
+		47E832C92478DDCE00E02ADB /* OutOfStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832C82478DDCE00E02ADB /* OutOfStockViewController.swift */; };
+		47E832CB2478DE4400E02ADB /* PaidCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832CA2478DE4400E02ADB /* PaidCustomerViewController.swift */; };
+		47E832CD2478DE9500E02ADB /* ProductWiseSalesReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832CC2478DE9500E02ADB /* ProductWiseSalesReportViewController.swift */; };
+		47E832CF2478DEDF00E02ADB /* ProductWiseStockReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832CE2478DEDF00E02ADB /* ProductWiseStockReportViewController.swift */; };
+		47E832D12478DF0900E02ADB /* PurchaseReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832D02478DF0900E02ADB /* PurchaseReportViewController.swift */; };
+		47E832D32478DF4A00E02ADB /* RecentInvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832D22478DF4A00E02ADB /* RecentInvoiceViewController.swift */; };
+		47E832D52478DF7000E02ADB /* RoleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832D42478DF7000E02ADB /* RoleListViewController.swift */; };
+		47E832D72478DF9900E02ADB /* SalesReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832D62478DF9900E02ADB /* SalesReportViewController.swift */; };
+		47E832D92478DFE400E02ADB /* ShippingCostReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832D82478DFE400E02ADB /* ShippingCostReportViewController.swift */; };
+		47E832DB2478F64A00E02ADB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832DA2478F64A00E02ADB /* SignUpViewController.swift */; };
+		47E832DD2478F67600E02ADB /* SlideMenuSubListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832DC2478F67600E02ADB /* SlideMenuSubListsViewController.swift */; };
+		47E832DF2478F6A400E02ADB /* StockReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832DE2478F6A400E02ADB /* StockReportViewController.swift */; };
+		47E832E12478F6D500E02ADB /* StockReturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832E02478F6D500E02ADB /* StockReturnViewController.swift */; };
+		47E832E32478F71000E02ADB /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832E22478F71000E02ADB /* SuccessViewController.swift */; };
+		47E832E52478F74600E02ADB /* SupplierReturnListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832E42478F74600E02ADB /* SupplierReturnListViewController.swift */; };
+		47E832E72478F76F00E02ADB /* SupplierwiseStockReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832E62478F76F00E02ADB /* SupplierwiseStockReportViewController.swift */; };
+		47E832E92478F79300E02ADB /* TodaysCustomerReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832E82478F79300E02ADB /* TodaysCustomerReportViewController.swift */; };
+		47E832EB2478F7BC00E02ADB /* TodaysReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832EA2478F7BC00E02ADB /* TodaysReportViewController.swift */; };
+		47E832ED2478F7FD00E02ADB /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832EC2478F7FD00E02ADB /* UpdateProfileViewController.swift */; };
+		47E832EF2478F82800E02ADB /* UpdateSttingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832EE2478F82800E02ADB /* UpdateSttingsViewController.swift */; };
+		47E832F12478F84D00E02ADB /* UserAssignRoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832F02478F84D00E02ADB /* UserAssignRoleViewController.swift */; };
+		47E832F32478F87100E02ADB /* WastageReturnListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832F22478F87100E02ADB /* WastageReturnListViewController.swift */; };
+		47E832F52478F8C200E02ADB /* CygenERP.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 47E832F42478F8C200E02ADB /* CygenERP.xcdatamodel */; };
+		47E832F72478F8EE00E02ADB /* SalesHomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832F62478F8EE00E02ADB /* SalesHomeScreenVC.swift */; };
+		47E832F92478F92600E02ADB /* SalesManageMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E832F82478F92600E02ADB /* SalesManageMessageVC.swift */; };
+		47E832FB247904AB00E02ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E832FA247904A800E02ADB /* Main.storyboard */; };
+		74E3B74F669926FD60A75CA6 /* Pods_ERPMainProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75180838EEC9BEDE29605807 /* Pods_ERPMainProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4743F26F248482D9005A2494 /* ManageCustomerProductPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCustomerProductPriceViewController.swift; sourceTree = "<group>"; };
+		474AD13F2481DA61003DA7AF /* DailySalesRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySalesRunVC.swift; sourceTree = "<group>"; };
+		474AD141248329F8003DA7AF /* CMRManageCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMRManageCustomer.swift; sourceTree = "<group>"; };
+		47E832322477D5E300E02ADB /* ERPMainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERPMainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E832352477D5E300E02ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47E832372477D5E300E02ADB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47E832392477D5E300E02ADB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47E8323F2477D5E400E02ADB /* ERPMainProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ERPMainProject.xcdatamodel; sourceTree = "<group>"; };
+		47E832412477D5F800E02ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47E832442477D5F800E02ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47E832462477D5F800E02ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E8324C2477D67B00E02ADB /* NewInvoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInvoiceViewController.swift; sourceTree = "<group>"; };
+		47E8324E2477D6B900E02ADB /* NewQuationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuationsViewController.swift; sourceTree = "<group>"; };
+		47E832502477D6E600E02ADB /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		47E832522477D70700E02ADB /* SupplierPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplierPaymentViewController.swift; sourceTree = "<group>"; };
+		47E832542477D72800E02ADB /* DebitVoucherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebitVoucherViewController.swift; sourceTree = "<group>"; };
+		47E832562477D74900E02ADB /* VoucherApproveListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherApproveListViewController.swift; sourceTree = "<group>"; };
+		47E832582477D76C00E02ADB /* SendMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageViewController.swift; sourceTree = "<group>"; };
+		47E8325A2477D78F00E02ADB /* AddCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomerViewController.swift; sourceTree = "<group>"; };
+		47E8325C2477D7C500E02ADB /* StringExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtention.swift; sourceTree = "<group>"; };
+		47E8325E2477D7E500E02ADB /* InboxMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxMessageViewController.swift; sourceTree = "<group>"; };
+		47E832602477D80B00E02ADB /* OutboxMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutboxMessageViewController.swift; sourceTree = "<group>"; };
+		47E832622477D82600E02ADB /* SupplierLedgerReportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplierLedgerReportVC.swift; sourceTree = "<group>"; };
+		47E832642477D85000E02ADB /* MessageDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailsViewController.swift; sourceTree = "<group>"; };
+		47E832662477D86900E02ADB /* CreditVoucherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditVoucherViewController.swift; sourceTree = "<group>"; };
+		47E832682477D88F00E02ADB /* ManageDriversVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageDriversVC.swift; sourceTree = "<group>"; };
+		47E8326A2477D8B800E02ADB /* TrickListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickListVC.swift; sourceTree = "<group>"; };
+		47E8326C2477D8EA00E02ADB /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		47E8326E2477D92500E02ADB /* ActionButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonItem.swift; sourceTree = "<group>"; };
+		47E832702477D95500E02ADB /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		47E832722477D9A700E02ADB /* AddUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUsersViewController.swift; sourceTree = "<group>"; };
+		47E832742477DA0F00E02ADB /* CashBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashBookViewController.swift; sourceTree = "<group>"; };
+		47E832762477DA3D00E02ADB /* categoryWisePurchaseReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryWisePurchaseReportViewController.swift; sourceTree = "<group>"; };
+		47E832782477DA7F00E02ADB /* CategoryWiseSalesReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryWiseSalesReportViewController.swift; sourceTree = "<group>"; };
+		47E8327A2477DAAC00E02ADB /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		47E8327C2477DAE100E02ADB /* CheckInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+		47E8327E2477DB1800E02ADB /* CheckOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
+		47E832802477DB4600E02ADB /* ClosingAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosingAccountViewController.swift; sourceTree = "<group>"; };
+		47E832822477DB7200E02ADB /* ClosingReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosingReportViewController.swift; sourceTree = "<group>"; };
+		47E832842477DB9A00E02ADB /* CreditCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCustomerViewController.swift; sourceTree = "<group>"; };
+		47E832862477DBCE00E02ADB /* CustomerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerHomeViewController.swift; sourceTree = "<group>"; };
+		47E832882477DBFC00E02ADB /* CustomerInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInformationViewController.swift; sourceTree = "<group>"; };
+		47E8328A2477DC5E00E02ADB /* CustomerLedgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerLedgerViewController.swift; sourceTree = "<group>"; };
+		47E8328C2477DC8B00E02ADB /* CustomerManageCartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerManageCartVC.swift; sourceTree = "<group>"; };
+		47E8328E2477DCAE00E02ADB /* CustomerManageCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerManageCategoryViewController.swift; sourceTree = "<group>"; };
+		47E832902477DCD000E02ADB /* CustomerManageMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerManageMessageViewController.swift; sourceTree = "<group>"; };
+		47E832922477DCF900E02ADB /* CustomerManageOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerManageOrderViewController.swift; sourceTree = "<group>"; };
+		47E832942478D71600E02ADB /* CustomerManageProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerManageProductViewController.swift; sourceTree = "<group>"; };
+		47E832962478D73A00E02ADB /* CustomerReceiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerReceiveViewController.swift; sourceTree = "<group>"; };
+		47E832982478D75A00E02ADB /* CustomerSupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSupportViewController.swift; sourceTree = "<group>"; };
+		47E8329A2478D77C00E02ADB /* DueReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueReportViewController.swift; sourceTree = "<group>"; };
+		47E8329C2478D7A600E02ADB /* ForCoreDataMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForCoreDataMethods.swift; sourceTree = "<group>"; };
+		47E8329E2478D7D700E02ADB /* ForWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForWebViewController.swift; sourceTree = "<group>"; };
+		47E832A02478D7F800E02ADB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		47E832A22478D81800E02ADB /* InventoryLedgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryLedgerViewController.swift; sourceTree = "<group>"; };
+		47E832A42478D84500E02ADB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		47E832A62478D86D00E02ADB /* MainHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeViewController.swift; sourceTree = "<group>"; };
+		47E832A82478D89300E02ADB /* MainScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScrollViewController.swift; sourceTree = "<group>"; };
+		47E832AA2478D8C600E02ADB /* ManageActiveCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageActiveCustomerViewController.swift; sourceTree = "<group>"; };
+		47E832AC2478D90C00E02ADB /* ManageCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCategoryViewController.swift; sourceTree = "<group>"; };
+		47E832AE2478D94700E02ADB /* ManageCustomerUpdateApplicantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCustomerUpdateApplicantsViewController.swift; sourceTree = "<group>"; };
+		47E832B02478D98400E02ADB /* ManageCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCustomerViewController.swift; sourceTree = "<group>"; };
+		47E832B22478D9B200E02ADB /* ManageInactiveCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageInactiveCustomerViewController.swift; sourceTree = "<group>"; };
+		47E832B42478D9D900E02ADB /* ManageInvoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageInvoiceViewController.swift; sourceTree = "<group>"; };
+		47E832B62478DA0B00E02ADB /* ManageMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageMessagesViewController.swift; sourceTree = "<group>"; };
+		47E832B82478DA4200E02ADB /* ManageNewApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageNewApplicationViewController.swift; sourceTree = "<group>"; };
+		47E832BA2478DA7700E02ADB /* ManageProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageProductViewController.swift; sourceTree = "<group>"; };
+		47E832BC2478DAB500E02ADB /* ManagePurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagePurchaseViewController.swift; sourceTree = "<group>"; };
+		47E832BE2478DAEA00E02ADB /* ManageQuotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageQuotationViewController.swift; sourceTree = "<group>"; };
+		47E832C02478DB1900E02ADB /* ManageSupplierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageSupplierViewController.swift; sourceTree = "<group>"; };
+		47E832C22478DB5D00E02ADB /* ManageTaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageTaxViewController.swift; sourceTree = "<group>"; };
+		47E832C42478DB8B00E02ADB /* ManageUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageUnitViewController.swift; sourceTree = "<group>"; };
+		47E832C62478DD9B00E02ADB /* ManageUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageUsersViewController.swift; sourceTree = "<group>"; };
+		47E832C82478DDCE00E02ADB /* OutOfStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutOfStockViewController.swift; sourceTree = "<group>"; };
+		47E832CA2478DE4400E02ADB /* PaidCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidCustomerViewController.swift; sourceTree = "<group>"; };
+		47E832CC2478DE9500E02ADB /* ProductWiseSalesReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductWiseSalesReportViewController.swift; sourceTree = "<group>"; };
+		47E832CE2478DEDF00E02ADB /* ProductWiseStockReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductWiseStockReportViewController.swift; sourceTree = "<group>"; };
+		47E832D02478DF0900E02ADB /* PurchaseReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseReportViewController.swift; sourceTree = "<group>"; };
+		47E832D22478DF4A00E02ADB /* RecentInvoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentInvoiceViewController.swift; sourceTree = "<group>"; };
+		47E832D42478DF7000E02ADB /* RoleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleListViewController.swift; sourceTree = "<group>"; };
+		47E832D62478DF9900E02ADB /* SalesReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesReportViewController.swift; sourceTree = "<group>"; };
+		47E832D82478DFE400E02ADB /* ShippingCostReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingCostReportViewController.swift; sourceTree = "<group>"; };
+		47E832DA2478F64A00E02ADB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		47E832DC2478F67600E02ADB /* SlideMenuSubListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuSubListsViewController.swift; sourceTree = "<group>"; };
+		47E832DE2478F6A400E02ADB /* StockReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockReportViewController.swift; sourceTree = "<group>"; };
+		47E832E02478F6D500E02ADB /* StockReturnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockReturnViewController.swift; sourceTree = "<group>"; };
+		47E832E22478F71000E02ADB /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		47E832E42478F74600E02ADB /* SupplierReturnListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplierReturnListViewController.swift; sourceTree = "<group>"; };
+		47E832E62478F76F00E02ADB /* SupplierwiseStockReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplierwiseStockReportViewController.swift; sourceTree = "<group>"; };
+		47E832E82478F79300E02ADB /* TodaysCustomerReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysCustomerReportViewController.swift; sourceTree = "<group>"; };
+		47E832EA2478F7BC00E02ADB /* TodaysReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysReportViewController.swift; sourceTree = "<group>"; };
+		47E832EC2478F7FD00E02ADB /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		47E832EE2478F82800E02ADB /* UpdateSttingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateSttingsViewController.swift; sourceTree = "<group>"; };
+		47E832F02478F84D00E02ADB /* UserAssignRoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAssignRoleViewController.swift; sourceTree = "<group>"; };
+		47E832F22478F87100E02ADB /* WastageReturnListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WastageReturnListViewController.swift; sourceTree = "<group>"; };
+		47E832F42478F8C200E02ADB /* CygenERP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CygenERP.xcdatamodel; sourceTree = "<group>"; };
+		47E832F62478F8EE00E02ADB /* SalesHomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesHomeScreenVC.swift; sourceTree = "<group>"; };
+		47E832F82478F92600E02ADB /* SalesManageMessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesManageMessageVC.swift; sourceTree = "<group>"; };
+		47E832FA247904A800E02ADB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		75180838EEC9BEDE29605807 /* Pods_ERPMainProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ERPMainProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90FC5DED46E84AD20806C8D /* Pods-ERPMainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERPMainProject.debug.xcconfig"; path = "Target Support Files/Pods-ERPMainProject/Pods-ERPMainProject.debug.xcconfig"; sourceTree = "<group>"; };
+		D12A4C82B2A39181EAE4395A /* Pods-ERPMainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERPMainProject.release.xcconfig"; path = "Target Support Files/Pods-ERPMainProject/Pods-ERPMainProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47E8322F2477D5E300E02ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E3B74F669926FD60A75CA6 /* Pods_ERPMainProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47E832292477D5E200E02ADB = {
+			isa = PBXGroup;
+			children = (
+				47E832342477D5E300E02ADB /* ERPMainProject */,
+				47E832332477D5E300E02ADB /* Products */,
+				EA67126EDDF50F40724B1B63 /* Pods */,
+				A5DA4403B7F0FE884AC5F846 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47E832332477D5E300E02ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47E832322477D5E300E02ADB /* ERPMainProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47E832342477D5E300E02ADB /* ERPMainProject */ = {
+			isa = PBXGroup;
+			children = (
+				47E832352477D5E300E02ADB /* AppDelegate.swift */,
+				47E832742477DA0F00E02ADB /* CashBookViewController.swift */,
+				47E832372477D5E300E02ADB /* SceneDelegate.swift */,
+				47E832392477D5E300E02ADB /* ViewController.swift */,
+				47E8324C2477D67B00E02ADB /* NewInvoiceViewController.swift */,
+				47E832582477D76C00E02ADB /* SendMessageViewController.swift */,
+				47E8325A2477D78F00E02ADB /* AddCustomerViewController.swift */,
+				47E8325C2477D7C500E02ADB /* StringExtention.swift */,
+				47E8325E2477D7E500E02ADB /* InboxMessageViewController.swift */,
+				47E832602477D80B00E02ADB /* OutboxMessageViewController.swift */,
+				47E832622477D82600E02ADB /* SupplierLedgerReportVC.swift */,
+				47E832642477D85000E02ADB /* MessageDetailsViewController.swift */,
+				47E832722477D9A700E02ADB /* AddUsersViewController.swift */,
+				47E8324E2477D6B900E02ADB /* NewQuationsViewController.swift */,
+				47E832502477D6E600E02ADB /* CartViewController.swift */,
+				4743F26F248482D9005A2494 /* ManageCustomerProductPriceViewController.swift */,
+				47E832762477DA3D00E02ADB /* categoryWisePurchaseReportViewController.swift */,
+				47E832782477DA7F00E02ADB /* CategoryWiseSalesReportViewController.swift */,
+				47E8327A2477DAAC00E02ADB /* ChangePasswordViewController.swift */,
+				47E8327C2477DAE100E02ADB /* CheckInternet.swift */,
+				47E8327E2477DB1800E02ADB /* CheckOutViewController.swift */,
+				47E832522477D70700E02ADB /* SupplierPaymentViewController.swift */,
+				47E832802477DB4600E02ADB /* ClosingAccountViewController.swift */,
+				47E832822477DB7200E02ADB /* ClosingReportViewController.swift */,
+				47E832842477DB9A00E02ADB /* CreditCustomerViewController.swift */,
+				47E832862477DBCE00E02ADB /* CustomerHomeViewController.swift */,
+				47E832882477DBFC00E02ADB /* CustomerInformationViewController.swift */,
+				47E832662477D86900E02ADB /* CreditVoucherViewController.swift */,
+				474AD13F2481DA61003DA7AF /* DailySalesRunVC.swift */,
+				474AD141248329F8003DA7AF /* CMRManageCustomer.swift */,
+				47E8328A2477DC5E00E02ADB /* CustomerLedgerViewController.swift */,
+				47E8328C2477DC8B00E02ADB /* CustomerManageCartVC.swift */,
+				47E8328E2477DCAE00E02ADB /* CustomerManageCategoryViewController.swift */,
+				47E832902477DCD000E02ADB /* CustomerManageMessageViewController.swift */,
+				47E832922477DCF900E02ADB /* CustomerManageOrderViewController.swift */,
+				47E832942478D71600E02ADB /* CustomerManageProductViewController.swift */,
+				47E832962478D73A00E02ADB /* CustomerReceiveViewController.swift */,
+				47E832982478D75A00E02ADB /* CustomerSupportViewController.swift */,
+				47E8329A2478D77C00E02ADB /* DueReportViewController.swift */,
+				47E8329E2478D7D700E02ADB /* ForWebViewController.swift */,
+				47E832A02478D7F800E02ADB /* HomeViewController.swift */,
+				47E832A22478D81800E02ADB /* InventoryLedgerViewController.swift */,
+				47E832A42478D84500E02ADB /* LoginViewController.swift */,
+				47E832A62478D86D00E02ADB /* MainHomeViewController.swift */,
+				47E832A82478D89300E02ADB /* MainScrollViewController.swift */,
+				47E832AA2478D8C600E02ADB /* ManageActiveCustomerViewController.swift */,
+				47E832AC2478D90C00E02ADB /* ManageCategoryViewController.swift */,
+				47E832AE2478D94700E02ADB /* ManageCustomerUpdateApplicantsViewController.swift */,
+				47E832B02478D98400E02ADB /* ManageCustomerViewController.swift */,
+				47E832B22478D9B200E02ADB /* ManageInactiveCustomerViewController.swift */,
+				47E832B42478D9D900E02ADB /* ManageInvoiceViewController.swift */,
+				47E832B62478DA0B00E02ADB /* ManageMessagesViewController.swift */,
+				47E832B82478DA4200E02ADB /* ManageNewApplicationViewController.swift */,
+				47E832BA2478DA7700E02ADB /* ManageProductViewController.swift */,
+				47E832BC2478DAB500E02ADB /* ManagePurchaseViewController.swift */,
+				47E832BE2478DAEA00E02ADB /* ManageQuotationViewController.swift */,
+				47E832C02478DB1900E02ADB /* ManageSupplierViewController.swift */,
+				47E832E02478F6D500E02ADB /* StockReturnViewController.swift */,
+				47E832E22478F71000E02ADB /* SuccessViewController.swift */,
+				47E832E42478F74600E02ADB /* SupplierReturnListViewController.swift */,
+				47E832C22478DB5D00E02ADB /* ManageTaxViewController.swift */,
+				47E832E62478F76F00E02ADB /* SupplierwiseStockReportViewController.swift */,
+				47E832E82478F79300E02ADB /* TodaysCustomerReportViewController.swift */,
+				47E832EA2478F7BC00E02ADB /* TodaysReportViewController.swift */,
+				47E832EC2478F7FD00E02ADB /* UpdateProfileViewController.swift */,
+				47E832EE2478F82800E02ADB /* UpdateSttingsViewController.swift */,
+				47E832F02478F84D00E02ADB /* UserAssignRoleViewController.swift */,
+				47E832F22478F87100E02ADB /* WastageReturnListViewController.swift */,
+				47E832FA247904A800E02ADB /* Main.storyboard */,
+				47E832C42478DB8B00E02ADB /* ManageUnitViewController.swift */,
+				47E832C62478DD9B00E02ADB /* ManageUsersViewController.swift */,
+				47E832C82478DDCE00E02ADB /* OutOfStockViewController.swift */,
+				47E832CA2478DE4400E02ADB /* PaidCustomerViewController.swift */,
+				47E832CC2478DE9500E02ADB /* ProductWiseSalesReportViewController.swift */,
+				47E832CE2478DEDF00E02ADB /* ProductWiseStockReportViewController.swift */,
+				47E832D02478DF0900E02ADB /* PurchaseReportViewController.swift */,
+				47E832D22478DF4A00E02ADB /* RecentInvoiceViewController.swift */,
+				47E832D42478DF7000E02ADB /* RoleListViewController.swift */,
+				47E832D62478DF9900E02ADB /* SalesReportViewController.swift */,
+				47E832D82478DFE400E02ADB /* ShippingCostReportViewController.swift */,
+				47E832DA2478F64A00E02ADB /* SignUpViewController.swift */,
+				47E832DC2478F67600E02ADB /* SlideMenuSubListsViewController.swift */,
+				47E832DE2478F6A400E02ADB /* StockReportViewController.swift */,
+				47E8329C2478D7A600E02ADB /* ForCoreDataMethods.swift */,
+				47E832682477D88F00E02ADB /* ManageDriversVC.swift */,
+				47E832542477D72800E02ADB /* DebitVoucherViewController.swift */,
+				47E832562477D74900E02ADB /* VoucherApproveListViewController.swift */,
+				47E8326A2477D8B800E02ADB /* TrickListVC.swift */,
+				47E8326C2477D8EA00E02ADB /* ActionButton.swift */,
+				47E8326E2477D92500E02ADB /* ActionButtonItem.swift */,
+				47E832F62478F8EE00E02ADB /* SalesHomeScreenVC.swift */,
+				47E832F82478F92600E02ADB /* SalesManageMessageVC.swift */,
+				47E832702477D95500E02ADB /* AddCategoryViewController.swift */,
+				47E832412477D5F800E02ADB /* Assets.xcassets */,
+				47E832432477D5F800E02ADB /* LaunchScreen.storyboard */,
+				47E832462477D5F800E02ADB /* Info.plist */,
+				47E832F42478F8C200E02ADB /* CygenERP.xcdatamodel */,
+				47E8323E2477D5E400E02ADB /* ERPMainProject.xcdatamodeld */,
+			);
+			path = ERPMainProject;
+			sourceTree = "<group>";
+		};
+		A5DA4403B7F0FE884AC5F846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75180838EEC9BEDE29605807 /* Pods_ERPMainProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA67126EDDF50F40724B1B63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C90FC5DED46E84AD20806C8D /* Pods-ERPMainProject.debug.xcconfig */,
+				D12A4C82B2A39181EAE4395A /* Pods-ERPMainProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47E832312477D5E300E02ADB /* ERPMainProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E832492477D5F800E02ADB /* Build configuration list for PBXNativeTarget "ERPMainProject" */;
+			buildPhases = (
+				94D0684C87DF784801BB0AD3 /* [CP] Check Pods Manifest.lock */,
+				47E8322E2477D5E300E02ADB /* Sources */,
+				47E8322F2477D5E300E02ADB /* Frameworks */,
+				47E832302477D5E300E02ADB /* Resources */,
+				C7B025DBF3725063054EA218 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ERPMainProject;
+			productName = ERPMainProject;
+			productReference = 47E832322477D5E300E02ADB /* ERPMainProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47E8322A2477D5E200E02ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Lancius;
+				TargetAttributes = {
+					47E832312477D5E300E02ADB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 47E8322D2477D5E200E02ADB /* Build configuration list for PBXProject "ERPMainProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47E832292477D5E200E02ADB;
+			productRefGroup = 47E832332477D5E300E02ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47E832312477D5E300E02ADB /* ERPMainProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47E832302477D5E300E02ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E832FB247904AB00E02ADB /* Main.storyboard in Resources */,
+				47E832452477D5F800E02ADB /* LaunchScreen.storyboard in Resources */,
+				47E832422477D5F800E02ADB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94D0684C87DF784801BB0AD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ERPMainProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B025DBF3725063054EA218 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ERPMainProject/Pods-ERPMainProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ERPMainProject/Pods-ERPMainProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ERPMainProject/Pods-ERPMainProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47E8322E2477D5E300E02ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E832932477DCF900E02ADB /* CustomerManageOrderViewController.swift in Sources */,
+				47E8326F2477D92500E02ADB /* ActionButtonItem.swift in Sources */,
+				47E832E52478F74600E02ADB /* SupplierReturnListViewController.swift in Sources */,
+				47E832F52478F8C200E02ADB /* CygenERP.xcdatamodel in Sources */,
+				47E832C72478DD9B00E02ADB /* ManageUsersViewController.swift in Sources */,
+				47E832712477D95500E02ADB /* AddCategoryViewController.swift in Sources */,
+				47E832E72478F76F00E02ADB /* SupplierwiseStockReportViewController.swift in Sources */,
+				47E832BB2478DA7700E02ADB /* ManageProductViewController.swift in Sources */,
+				47E832752477DA0F00E02ADB /* CashBookViewController.swift in Sources */,
+				47E8325B2477D78F00E02ADB /* AddCustomerViewController.swift in Sources */,
+				47E8323A2477D5E300E02ADB /* ViewController.swift in Sources */,
+				47E832D92478DFE400E02ADB /* ShippingCostReportViewController.swift in Sources */,
+				47E832B92478DA4200E02ADB /* ManageNewApplicationViewController.swift in Sources */,
+				47E832ED2478F7FD00E02ADB /* UpdateProfileViewController.swift in Sources */,
+				47E832BF2478DAEA00E02ADB /* ManageQuotationViewController.swift in Sources */,
+				47E832972478D73A00E02ADB /* CustomerReceiveViewController.swift in Sources */,
+				47E832D52478DF7000E02ADB /* RoleListViewController.swift in Sources */,
+				47E832D32478DF4A00E02ADB /* RecentInvoiceViewController.swift in Sources */,
+				47E832C52478DB8B00E02ADB /* ManageUnitViewController.swift in Sources */,
+				47E832CB2478DE4400E02ADB /* PaidCustomerViewController.swift in Sources */,
+				47E832D12478DF0900E02ADB /* PurchaseReportViewController.swift in Sources */,
+				47E832772477DA3D00E02ADB /* categoryWisePurchaseReportViewController.swift in Sources */,
+				47E832EB2478F7BC00E02ADB /* TodaysReportViewController.swift in Sources */,
+				47E8327F2477DB1800E02ADB /* CheckOutViewController.swift in Sources */,
+				47E832AB2478D8C600E02ADB /* ManageActiveCustomerViewController.swift in Sources */,
+				47E8326B2477D8B800E02ADB /* TrickListVC.swift in Sources */,
+				47E832F72478F8EE00E02ADB /* SalesHomeScreenVC.swift in Sources */,
+				47E832B12478D98400E02ADB /* ManageCustomerViewController.swift in Sources */,
+				47E8324D2477D67B00E02ADB /* NewInvoiceViewController.swift in Sources */,
+				47E8328B2477DC5E00E02ADB /* CustomerLedgerViewController.swift in Sources */,
+				47E832632477D82600E02ADB /* SupplierLedgerReportVC.swift in Sources */,
+				47E832592477D76C00E02ADB /* SendMessageViewController.swift in Sources */,
+				47E832DB2478F64A00E02ADB /* SignUpViewController.swift in Sources */,
+				47E832A52478D84600E02ADB /* LoginViewController.swift in Sources */,
+				47E832C92478DDCE00E02ADB /* OutOfStockViewController.swift in Sources */,
+				47E832512477D6E600E02ADB /* CartViewController.swift in Sources */,
+				47E832952478D71600E02ADB /* CustomerManageProductViewController.swift in Sources */,
+				47E832732477D9A700E02ADB /* AddUsersViewController.swift in Sources */,
+				47E8329D2478D7A600E02ADB /* ForCoreDataMethods.swift in Sources */,
+				47E832852477DB9A00E02ADB /* CreditCustomerViewController.swift in Sources */,
+				47E832A12478D7F800E02ADB /* HomeViewController.swift in Sources */,
+				474AD1402481DA62003DA7AF /* DailySalesRunVC.swift in Sources */,
+				47E832E12478F6D500E02ADB /* StockReturnViewController.swift in Sources */,
+				47E832EF2478F82800E02ADB /* UpdateSttingsViewController.swift in Sources */,
+				47E832692477D88F00E02ADB /* ManageDriversVC.swift in Sources */,
+				47E832BD2478DAB500E02ADB /* ManagePurchaseViewController.swift in Sources */,
+				47E8327B2477DAAC00E02ADB /* ChangePasswordViewController.swift in Sources */,
+				4743F270248482D9005A2494 /* ManageCustomerProductPriceViewController.swift in Sources */,
+				47E832572477D74900E02ADB /* VoucherApproveListViewController.swift in Sources */,
+				47E832AD2478D90C00E02ADB /* ManageCategoryViewController.swift in Sources */,
+				47E8325F2477D7E500E02ADB /* InboxMessageViewController.swift in Sources */,
+				47E832C12478DB1900E02ADB /* ManageSupplierViewController.swift in Sources */,
+				47E8327D2477DAE100E02ADB /* CheckInternet.swift in Sources */,
+				47E832832477DB7200E02ADB /* ClosingReportViewController.swift in Sources */,
+				47E832E92478F79300E02ADB /* TodaysCustomerReportViewController.swift in Sources */,
+				47E832CD2478DE9500E02ADB /* ProductWiseSalesReportViewController.swift in Sources */,
+				47E8328F2477DCAE00E02ADB /* CustomerManageCategoryViewController.swift in Sources */,
+				47E832CF2478DEDF00E02ADB /* ProductWiseStockReportViewController.swift in Sources */,
+				47E8329B2478D77C00E02ADB /* DueReportViewController.swift in Sources */,
+				47E832F32478F87100E02ADB /* WastageReturnListViewController.swift in Sources */,
+				47E832B52478D9D900E02ADB /* ManageInvoiceViewController.swift in Sources */,
+				47E832792477DA7F00E02ADB /* CategoryWiseSalesReportViewController.swift in Sources */,
+				47E832672477D86900E02ADB /* CreditVoucherViewController.swift in Sources */,
+				47E832B32478D9B200E02ADB /* ManageInactiveCustomerViewController.swift in Sources */,
+				47E832AF2478D94700E02ADB /* ManageCustomerUpdateApplicantsViewController.swift in Sources */,
+				47E832A32478D81800E02ADB /* InventoryLedgerViewController.swift in Sources */,
+				47E832652477D85000E02ADB /* MessageDetailsViewController.swift in Sources */,
+				47E832552477D72800E02ADB /* DebitVoucherViewController.swift in Sources */,
+				47E832C32478DB5D00E02ADB /* ManageTaxViewController.swift in Sources */,
+				47E832D72478DF9900E02ADB /* SalesReportViewController.swift in Sources */,
+				47E8325D2477D7C500E02ADB /* StringExtention.swift in Sources */,
+				474AD142248329F8003DA7AF /* CMRManageCustomer.swift in Sources */,
+				47E832992478D75A00E02ADB /* CustomerSupportViewController.swift in Sources */,
+				47E832F92478F92600E02ADB /* SalesManageMessageVC.swift in Sources */,
+				47E832362477D5E300E02ADB /* AppDelegate.swift in Sources */,
+				47E832872477DBCE00E02ADB /* CustomerHomeViewController.swift in Sources */,
+				47E832892477DBFC00E02ADB /* CustomerInformationViewController.swift in Sources */,
+				47E832DF2478F6A400E02ADB /* StockReportViewController.swift in Sources */,
+				47E8324F2477D6B900E02ADB /* NewQuationsViewController.swift in Sources */,
+				47E832DD2478F67600E02ADB /* SlideMenuSubListsViewController.swift in Sources */,
+				47E8329F2478D7D700E02ADB /* ForWebViewController.swift in Sources */,
+				47E832912477DCD000E02ADB /* CustomerManageMessageViewController.swift in Sources */,
+				47E8328D2477DC8B00E02ADB /* CustomerManageCartVC.swift in Sources */,
+				47E832402477D5E400E02ADB /* ERPMainProject.xcdatamodeld in Sources */,
+				47E832382477D5E300E02ADB /* SceneDelegate.swift in Sources */,
+				47E832612477D80B00E02ADB /* OutboxMessageViewController.swift in Sources */,
+				47E832A72478D86D00E02ADB /* MainHomeViewController.swift in Sources */,
+				47E832532477D70700E02ADB /* SupplierPaymentViewController.swift in Sources */,
+				47E832A92478D89300E02ADB /* MainScrollViewController.swift in Sources */,
+				47E832B72478DA0B00E02ADB /* ManageMessagesViewController.swift in Sources */,
+				47E832812477DB4600E02ADB /* ClosingAccountViewController.swift in Sources */,
+				47E832E32478F71000E02ADB /* SuccessViewController.swift in Sources */,
+				47E8326D2477D8EA00E02ADB /* ActionButton.swift in Sources */,
+				47E832F12478F84D00E02ADB /* UserAssignRoleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47E832432477D5F800E02ADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47E832442477D5F800E02ADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47E832472477D5F800E02ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47E832482477D5F800E02ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47E8324A2477D5F800E02ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90FC5DED46E84AD20806C8D /* Pods-ERPMainProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42J5CXS49A;
+				INFOPLIST_FILE = ERPMainProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lancius.ERPMainProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47E8324B2477D5F800E02ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12A4C82B2A39181EAE4395A /* Pods-ERPMainProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42J5CXS49A;
+				INFOPLIST_FILE = ERPMainProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lancius.ERPMainProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47E8322D2477D5E200E02ADB /* Build configuration list for PBXProject "ERPMainProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E832472477D5F800E02ADB /* Debug */,
+				47E832482477D5F800E02ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E832492477D5F800E02ADB /* Build configuration list for PBXNativeTarget "ERPMainProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E8324A2477D5F800E02ADB /* Debug */,
+				47E8324B2477D5F800E02ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47E8323E2477D5E400E02ADB /* ERPMainProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47E8323F2477D5E400E02ADB /* ERPMainProject.xcdatamodel */,
+			);
+			currentVersion = 47E8323F2477D5E400E02ADB /* ERPMainProject.xcdatamodel */;
+			path = ERPMainProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47E8322A2477D5E200E02ADB /* Project object */;
+}
